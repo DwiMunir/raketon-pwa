@@ -8,23 +8,23 @@
 }
 @font-face {
     font-family: dosis-extrabold;
-    src: url('../fonts/Dosis-ExtraBold.ttf');
+    src: url('assets/fonts/Dosis-ExtraBold.ttf');
 }
 @font-face {
     font-family: dosis-light;
-    src: url('../fonts/Dosis-Light.ttf');
+    src: url('assets/fonts/Dosis-Light.ttf');
 }
 @font-face {
     font-family: dosis-medium;
-    src: url('../fonts/Dosis-Medium.ttf');
+    src: url('assets/fonts/Dosis-Medium.ttf');
 }
 @font-face {
     font-family: dosis-regular;
-    src: url('../fonts/Dosis-Regular.ttf');
+    src: url('assets/fonts/Dosis-Regular.ttf');
 }
 @font-face {
     font-family: dosis-semibold;
-    src: url('../fonts/Dosis-SemiBold.ttf');
+    src: url('assets/fonts/Dosis-SemiBold.ttf');
 }
 
 .dosis-bold{
