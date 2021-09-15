@@ -56,7 +56,7 @@ $(document).ready(function () {
     // Load cache from serviceWorker
     if ('serviceWorker' in navigator) {
         $(window).on('load', function () {
-            navigator.serviceWorker.register('/serviceworker.js')
+            navigator.serviceWorker.register('serviceworker.js')
                 .then((registration) => {
                     console.log('Service Worker tersedia di: ', registration.scope);
                 }, (err) => {
