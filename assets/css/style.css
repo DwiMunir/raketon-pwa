@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: dosis-bold;
-    src: url('../fonts/Dosis-Bold.ttf');
+    src: url('assets/fonts/Dosis-Bold.ttf');
 }
 @font-face {
     font-family: dosis-extrabold;
