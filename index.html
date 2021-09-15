@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAKETON - PWA</title>
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="w-full py-6 sticky top-0 shadow-2xl z-10 bg-gray-50 mb-8" id="navbar">
+        <div class="container lg:flex flex-row justify-between px-6 items-center mx-auto hidden">
+            <div class="left flex flex-row justify-center items-center gap-6 flex-1">
+                <a href="?category=natural" class="dosis-medium text-lg text-gray-500">Natural</a>
+                <a href="?category=car" class="dosis-medium text-lg text-gray-500">Car</a>
+                <a href="?category=travel" class="dosis-medium text-lg text-gray-500">Travel</a>
+                <a href="?category=motorcycle" class="dosis-medium text-lg text-gray-500">Motorcycle</a>
+            </div>
+            <div class="center flex-1 text-center">
+                <h3 class="dosis-bold text-2xl uppercase text-blue-900">Raketon</h3>
+            </div>
+            <div class="right flex flex-row justify-end flex-1">
+                <form action="" method="post" class="border-b-2 py-2 w-6/12 flex flex-row justify-between px-2">
+                    <input type="text" placeholder="Type word..." class="focus:outline-none dosis-light bg-transparent">
+                    <button><i class="fa fa-search text-gray-500" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </div>
+        <!-- navbar mobile -->
+        <div class="container px-8 flex flex-row justify-between items-center lg:hidden mx-auto">
+            <h3 class="dosis-bold text-lg uppercase text-blue-900">Raketon</h3>
+            <span class="inline-block p-3" onclick="return showMenu()">
+                <i class="fa fa-gear text-blue-900" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- menu mobile -->
+        <div id="menuMobile"
+            class="fixed w-full h-full bg-blue-900 bg-opacity-90 z-50 -top-full -left-full duration-300 text-center flex-col flex justify-center gap-10">
+            <a href="?category=natural" class="dosis-medium text-lg text-white">Natural</a>
+            <a href="?category=car" class="dosis-medium text-lg text-white">Car</a>
+            <a href="?category=travel" class="dosis-medium text-lg text-white">Travle</a>
+            <a href="?category=motorcycle" class="dosis-medium text-lg text-white">Motorcycle</a>
+
+            <span class="absolute top-4 right-4" onclick="return closeMenu()">
+                <i class="fa fa-close text-white" aria-hidden="true"></i></span>
+        </div>
+
+    </section>
+
+
+    <section id="content" class="flex flex-row justify-center lg:gap-4 flex-wrap items-start px-4 pb-12">
+        <div id="row-1" class="flex lg:flex-1 flex-wrap lg:gap-7 w-1/2 gap-2 px-1"></div>
+        <div id="row-2" class="flex lg:flex-1 flex-wrap lg:gap-7 w-1/2 gap-2 px-1"></div>
+        <div id="row-3" class="lg:flex hidden lg:flex-1 flex-wrap lg:gap-7 w-full gap-4"></div>
+    </section>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+</html>

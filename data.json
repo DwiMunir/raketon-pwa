@@ -1,0 +1,44 @@
+{
+    "results": [
+        {
+            "urls": {
+                "regular": "/assets/images/image-1.jpg"
+            }
+        },
+        {
+            "urls": {
+                "regular": "/assets/images/image-2.jpg"
+            }
+        },
+        {
+            "urls": {
+                "regular": "/assets/images/image-3.jpg"
+            }
+        },
+        {
+            "urls": {
+                "regular": "/assets/images/image-4.jpg"
+            }
+        },
+        {
+            "urls": {
+                "regular": "/assets/images/image-5.jpg"
+            }
+        },
+        {
+            "urls": {
+                "regular": "/assets/images/image-6.jpg"
+            }
+        },
+        {
+            "urls": {
+                "regular": "/assets/images/image-7.jpg"
+            }
+        },
+        {
+            "urls": {
+                "regular": "/assets/images/image-8.jpg"
+            }
+        }
+    ]
+}
